@@ -1,3 +1,3 @@
-rate = 20.5
+rate = 28.3
 workingHours = input()
-print(rate * float(workingHours))
+print(rate * float(workingHours) * 2)
