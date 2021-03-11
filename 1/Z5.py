@@ -6,7 +6,7 @@ data = mboxFile.readlines()
 sum = 0
 count = 0
 for line in data:
-	if line.startswith("X-DSPAM-Confidence") == 0:
+	if line.find("X-DSPAM-Confidence") == 0:
 		sum += float(re.findall("\d+\.\d*", line)[0])
 		count += 1
 

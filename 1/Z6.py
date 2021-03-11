@@ -1,5 +1,3 @@
-import regex as re
-
 mboxFile = open("mbox-short.txt")
 data = mboxFile.readlines()
 
