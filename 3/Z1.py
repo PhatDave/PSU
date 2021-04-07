@@ -20,4 +20,4 @@ print(str(data[data.am == 0].__len__()) + " manual, " + str(data[data.am == 1]._
 
 print(str(data[(data.am == 1) & (data.hp > 100)].__len__()) + " automatic & hp > 100")
 
-print(data.wt * 1000)
+print(data.wt * 1000 * 0.45)
