@@ -1,2 +1,2 @@
 # PSU
-LV PSU jel
+PSU (Primjenjeno Strojno Učenje) LV
